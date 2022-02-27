@@ -19,19 +19,13 @@
       <h1 id="title"></h1>
       <p id="text"></p>
 
-      <picture>
-        <source
-          media="(min-width: 768px)"
-          srcset="./images/pattern-divider-desktop.svg"
-        />
-        <img src="./images/pattern-divider-mobile.svg" alt="divider" />
-      </picture>
+      <img class="divider-line" src="./images/pattern-divider-mobile.svg" alt="divider" />
 
-      <div>
+      <article class="container__lower">
         <button onclick="retrieveAdvice()">
           <img src="./images/icon-dice.svg" alt="" />
         </button>
-      </div>
+      </article>
     </main>
     <script src="script.js"></script>
   </body>
